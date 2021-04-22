@@ -1,4 +1,4 @@
-# Heather's Portfolio - The Adult Version
+## Heather's Portfolio - The Adult Version- Currently Under Construction
 
 My first portfoilo site was designed quickly and meant to be playful and brief. Coming from early education and spending my adult life with children, I often feel like I've never reached adulthood and wisecrack that my resume should be written in Crayon. :laughing:
 
