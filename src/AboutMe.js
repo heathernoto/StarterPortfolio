@@ -16,7 +16,7 @@ export default function AboutMe() {
   const classes = useStyles();
   return (
     <section id="about-me-section">
-      <Paper elevation={3} className={classes.aboutMe}>
+      <Paper elevation={3} square="true" className={classes.aboutMe}>
         <h1>About Me</h1>
         <p>
           Originally in early childhood education, I left the workforce to raise

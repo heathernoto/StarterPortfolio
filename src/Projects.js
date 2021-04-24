@@ -27,7 +27,11 @@ export default function Projects() {
 
   return (
     <React.Fragment>
-      <Paper elevation={3} className={classes.wrapper} id="projects-section">
+      <Paper
+        elevation={3}
+        square="true"
+        className={classes.wrapper}
+        id="projects-section">
         <div className={classes.projects}>
           <Container maxWidth="sm">
             <Typography align="center">

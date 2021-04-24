@@ -42,7 +42,7 @@ export default function Project() {
       {projects.map((project) => {
         return (
           <Grid key={project.id} item xs={12} sm={6} md={4}>
-            <Card className={classes.card}>
+            <Card className={classes.card} square="true">
               <CardMedia
                 className={classes.cardMedia}
                 image={project.image}

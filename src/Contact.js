@@ -27,6 +27,7 @@ export default function Contact() {
   const classes = useStyles();
   return (
     <Paper
+      square="true"
       elevation={3}
       className={classes.root}
       xs={12}

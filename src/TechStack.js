@@ -26,7 +26,11 @@ export default function TechStack() {
   const classes = useStyles();
 
   return (
-    <Paper className={classes.paper} elevation={3} id="tech-section">
+    <Paper
+      className={classes.paper}
+      square="true"
+      elevation={3}
+      id="tech-section">
       <Typography gutterBottom variant="h4" component="h2">
         <center>
           {' '}
