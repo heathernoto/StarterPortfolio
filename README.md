@@ -4,7 +4,7 @@ My first portfolio site was designed quickly and meant to be playful and brief. 
 
 ## Well, the more I looked at my original site(BELOW), the more I realized that the color scheme looked just like a Crayola crayon box! Right??
 
-![original portfolio site](src/images/PlayfulPortfolio/firstPage.png)
+![original portfolio site](src/images/firstPage.png)
 
 So here is my more stylized, still playful, adult version!
 
