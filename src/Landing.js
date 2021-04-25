@@ -1,4 +1,4 @@
-import coverPhoto from '../src/tubcropped1.JPG';
+//import coverPhoto from '../src/tubcropped1.JPG';
 //import Container from '@material-ui/core/Container';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     alignContent: 'center',
 
-    // backgroundImage: `url('${process.env.PUBLIC_URL} + /src/tubcropped1.png')`,
+    backgroundImage: `url('${process.env.PUBLIC_URL} + /src/tubcropped1.png')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   },
@@ -35,11 +35,11 @@ export default function Landing() {
   return (
     <Grid container className={classes.landingWrapper}>
       <Grid item xs={12}>
-        <img
+        {/* <img
           alt="Beltway Bathtub"
           src={coverPhoto}
           className={classes.bathtub}
-        />
+        /> */}
       </Grid>
 
       <Grid item>

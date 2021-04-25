@@ -1,17 +1,17 @@
 // import Navbar from './Navbar';
-//import Landing from './Landing';
+import Landing from './Landing';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import TechStack from './TechStack';
 import Contact from './Contact';
-import HeroLanding from './HeroLanding';
+//import HeroLanding from './HeroLanding';
 
 function App() {
   return (
     <div className="entire-box">
-      <HeroLanding />
+      {/* <HeroLanding /> */}
       {/* <Navbar /> */}
-      {/* <Landing /> */}
+      <Landing />
       <AboutMe />
       <Projects />
       <TechStack />
