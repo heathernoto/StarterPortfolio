@@ -13,9 +13,10 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     alignContent: 'center',
-    //   backgroundImage: `url(/static/src/tubcropped1.JPG)`,
-    //   backgroundSize: 'cover',
-    //   backgroundPosition: 'center',
+
+    // backgroundImage: `url('${process.env.PUBLIC_URL} + /src/tubcropped1.png')`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
   },
   bathtub: {
     width: '100%',

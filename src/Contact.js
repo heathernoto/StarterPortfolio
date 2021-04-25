@@ -10,16 +10,11 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: 'aliceBlue',
-
     display: 'flex',
     flexDirection: 'row',
-    padding: theme.spacing(1),
-    marginTop: theme.spacing(6),
-    marginBottom: theme.spacing(6),
     justifyContent: 'space-evenly',
     alignItems: 'center',
-    // boxShadow:
-    //   '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
+    marginBottom: '2rem',
   },
 }));
 
@@ -31,7 +26,6 @@ export default function Contact() {
       elevation={3}
       className={classes.root}
       xs={12}
-      s={6}
       id="contact-section">
       <Link
         color="inherit"

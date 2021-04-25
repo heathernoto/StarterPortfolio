@@ -57,18 +57,30 @@ export default function Project() {
               <CardActions className={classes.links}>
                 {/* YouTube demo */}
                 {project.youTube && (
-                  <Link target="_blank" href={project.youTube} color="inherit">
+                  <Link
+                    alt="Link to YouTube"
+                    target="_blank"
+                    href={project.youTube}
+                    color="inherit">
                     <YouTubeIcon size="small" />
                   </Link>
                 )}
                 {/* link if deployed */}
                 {project.link && (
-                  <Link target="_blank" href={project.link} color="inherit">
+                  <Link
+                    alt="Link to deployed project"
+                    target="_blank"
+                    href={project.link}
+                    color="inherit">
                     <LinkIcon size="small" />
                   </Link>
                 )}
                 {/* GitHub repo */}
-                <Link target="_blank" href={project.gitHub} color="inherit">
+                <Link
+                  alt="Link to Github repo"
+                  target="_blank"
+                  href={project.gitHub}
+                  color="inherit">
                   <GitHubIcon size="small" />
                 </Link>
               </CardActions>
