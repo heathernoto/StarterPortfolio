@@ -13,10 +13,6 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     alignContent: 'center',
-
-    backgroundImage: `url('${process.env.PUBLIC_URL} + /src/tubcropped1.png')`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
   },
   bathtub: {
     width: '100%',
@@ -35,11 +31,11 @@ export default function Landing() {
   return (
     <Grid container className={classes.landingWrapper}>
       <Grid item xs={12}>
-        {/* <img
+        <img
           alt="Beltway Bathtub"
-          src={coverPhoto}
-          className={classes.bathtub}
-        /> */}
+          // src={coverPhoto}
+          className="bathtub"
+        />
       </Grid>
 
       <Grid item>
