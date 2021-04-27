@@ -10,8 +10,8 @@ import PolymerIcon from '@material-ui/icons/Polymer';
 import TextRotationNoneIcon from '@material-ui/icons/TextRotationNone';
 import HeadsetIcon from '@material-ui/icons/Headset';
 import PhoneMissedIcon from '@material-ui/icons/PhoneMissed';
-//import Popup from 'reactjs-popup';
-//import SchoolIcon from '@material-ui/icons/School';
+import Popup from 'reactjs-popup';
+import SchoolIcon from '@material-ui/icons/School';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -22,14 +22,6 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 700,
     backgroundColor: 'aliceBlue',
   },
-  popup: {
-    display: 'flex',
-    justifyContent: 'center',
-
-    backgroundColor: '#d6f3da',
-    color: '#383d4f',
-    border: '5px double #331a00',
-  },
 }));
 
 export default function TechStack() {
@@ -38,16 +30,29 @@ export default function TechStack() {
   return (
     <Paper className={classes.paper} square elevation={3} id="tech-section">
       <Typography gutterBottom variant="h4" component="h2">
-        {/* <center> */} <TitleIcon fontSize="large" />
-        <ExplicitIcon fontSize="large" />
-        <CopyrightIcon fontSize="large" />
-        <Looks4Icon fontSize="large" style={{ transform: 'rotate(-180deg)' }} />
+        {/* <center> */} <TitleIcon aria-label="T" fontSize="large" />
+        <ExplicitIcon aria-label="E" fontSize="large" />
+        <CopyrightIcon aria-label="C" fontSize="large" />
+        <Looks4Icon
+          aria-label="H"
+          fontSize="large"
+          style={{ transform: 'rotate(-180deg)' }}
+        />
         <br />
-        <PolymerIcon fontSize="large" style={{ transform: 'rotate(-90deg)' }} />
-        <TitleIcon fontSize="large" />
-        <TextRotationNoneIcon fontSize="large" />
-        <HeadsetIcon fontSize="large" style={{ transform: 'rotate(-90deg)' }} />
+        <PolymerIcon
+          aria-label="S"
+          fontSize="large"
+          style={{ transform: 'rotate(-90deg)' }}
+        />
+        <TitleIcon aria-label="T" fontSize="large" />
+        <TextRotationNoneIcon aria-label="A" fontSize="large" />
+        <HeadsetIcon
+          aria-label="C"
+          fontSize="large"
+          style={{ transform: 'rotate(-90deg)' }}
+        />
         <PhoneMissedIcon
+          aria-label="K"
           fontSize="large"
           style={{ transform: 'rotate(90deg)' }}
         />
@@ -69,19 +74,19 @@ export default function TechStack() {
           <center>And I'm adding to my knowledge base every day!</center>
         </strong>
       </Typography>
-      {/* <Popup
+      <Popup
         trigger={
-          <button>
+          <button aria-label="What I am learning now">
             {' '}
             <SchoolIcon />
           </button>
         }
-        position="right center">
-        <div className={classes.popup}>
+        position="bottom ">
+        <div>
           This week, I am learning more about GraphQL and attending Azure
           Storage Day.
         </div>
-      </Popup> */}
+      </Popup>
     </Paper>
   );
 }

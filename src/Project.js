@@ -57,7 +57,7 @@ export default function Project() {
                 {/* YouTube demo */}
                 {project.youTube && (
                   <Link
-                    alt="Link to YouTube"
+                    aria-label="Link to YouTube"
                     target="_blank"
                     href={project.youTube}
                     color="inherit">
@@ -67,7 +67,7 @@ export default function Project() {
                 {/* link if deployed */}
                 {project.link && (
                   <Link
-                    alt="Link to deployed project"
+                    aria-label="Link to deployed project"
                     target="_blank"
                     href={project.link}
                     color="inherit">
@@ -76,7 +76,7 @@ export default function Project() {
                 )}
                 {/* GitHub repo */}
                 <Link
-                  alt="Link to Github repo"
+                  aria-label="Link to Github repo"
                   target="_blank"
                   href={project.gitHub}
                   color="inherit">

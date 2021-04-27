@@ -25,14 +25,14 @@ export default function Contact() {
     <Paper square elevation={3} className={classes.root} xs={12}>
       <Link
         color="inherit"
-        alt="Email Link"
+        aria-label="Email Link"
         target="_blank"
         href="mailto:heather.noto@gmail.com">
         <EmailIcon fontSize="large" />
       </Link>
       <Link
         color="inherit"
-        alt="LinkedIn Link"
+        aria-label="LinkedIn Link"
         target="_blank"
         href="https://www.linkedin.com/in/heather-berardo-noto ">
         <LinkedInIcon fontSize="large" />
@@ -44,14 +44,14 @@ export default function Contact() {
 
       <Link
         color="inherit"
-        alt="GitHub Link"
+        aria-label="GitHub Link"
         target="_blank"
         href="https://github.com/heathernoto">
         <GitHubIcon fontSize="large" />
       </Link>
       <Link
         color="inherit"
-        alt="Medium blog Link"
+        aria-label="Medium blog Link"
         target="_blank"
         href="https://heather-noto.medium.com/am-i-too-old-for-a-coding-bootcamp-aa24a84b8465">
         <MenuBookIcon fontSize="large" />

@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   textWrapper: {
+    marginTop: '2rem',
     padding: '.15rem',
     zIndex: 1,
     border: '5px double #331a00',
@@ -31,8 +32,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'aliceBlue',
     color: '#383d4f',
     border: '5px double #331a00',
-    // textShadow:
-    //   '-1px -1px 0 #D6f3da, 1px -1px 0 #D6f3da, -1px 1px 0 #D6f3da, 1px 1px 0 #D6f3da',
+    textShadow:
+      '-1px -1px 0 #fcd9e1, 1px -1px 0 #fcd9e1, -1px 1px 0 #fcd9e1, 1px 1px 0 #fcd9e1',
   },
   name: {
     fontSize: '2rem',
@@ -53,7 +54,11 @@ export default function Landing() {
 
       <Fade in direction="left" timeout={4000}>
         <Paper className={classes.textWrapper} elevation={3} square>
-          <Paper className={classes.textBox} elevation={3} square>
+          <Paper
+            id="banner-backer"
+            className={classes.textBox}
+            elevation={3}
+            square>
             <center>
               {' '}
               <h1 className={classes.name}>Heather Berardo Noto</h1>

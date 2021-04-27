@@ -6,16 +6,17 @@ const useStyles = makeStyles((theme) => ({
     padding: '.75rem 1.5rem 1.5rem 1.5rem',
     margin: '4rem',
     textAlign: 'center',
-    fontWeight: 700,
+
     backgroundColor: 'aliceBlue',
   },
+  nycPic: { width: '6rem', align: 'left' },
 }));
 
 export default function AboutMe() {
   const classes = useStyles();
   return (
     <Paper elevation={3} square className={classes.aboutMe}>
-      <h1>About Me</h1>
+      <h1>AboutMe</h1>
       <p>
         Originally in early childhood education, I left the workforce to raise
         my children and care for my parents. Though not "working", I was never
