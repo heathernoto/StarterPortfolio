@@ -26,6 +26,7 @@ export default function Contact() {
       <Link
         color="inherit"
         aria-label="Email Link"
+        rel="noopener"
         target="_blank"
         href="mailto:heather.noto@gmail.com">
         <EmailIcon fontSize="large" />
@@ -33,6 +34,7 @@ export default function Contact() {
       <Link
         color="inherit"
         aria-label="LinkedIn Link"
+        rel="noopener"
         target="_blank"
         href="https://www.linkedin.com/in/heather-berardo-noto ">
         <LinkedInIcon fontSize="large" />
@@ -45,6 +47,7 @@ export default function Contact() {
       <Link
         color="inherit"
         aria-label="GitHub Link"
+        rel="noopener"
         target="_blank"
         href="https://github.com/heathernoto">
         <GitHubIcon fontSize="large" />
@@ -52,6 +55,7 @@ export default function Contact() {
       <Link
         color="inherit"
         aria-label="Medium blog Link"
+        rel="noopener"
         target="_blank"
         href="https://heather-noto.medium.com/am-i-too-old-for-a-coding-bootcamp-aa24a84b8465">
         <MenuBookIcon fontSize="large" />

@@ -3,6 +3,10 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Fade from '@material-ui/core/Fade';
 import { makeStyles } from '@material-ui/core/styles';
+import EmailIcon from '@material-ui/icons/Email';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles((theme) => ({
   landingWrapper: {
@@ -63,6 +67,38 @@ export default function Landing() {
               {' '}
               <h1 className={classes.name}>Heather Berardo Noto</h1>
               <h2 className={classes.position}>Full Stack Software Engineer</h2>
+              {/* email */}
+              <Link
+                aria-label="Email Link"
+                color="inherit"
+                fontSize="large"
+                rel="noopener"
+                target="_blank"
+                href="mailto:heather.noto@gmail.com">
+                <EmailIcon />
+              </Link>
+              {/* linkedIn */}
+              {'     '}
+              <Link
+                aria-label="LinkedIn"
+                color="inherit"
+                rel="noopener"
+                fontSize="large"
+                target="_blank"
+                href="https://www.linkedin.com/in/heather-berardo-noto ">
+                <LinkedInIcon />
+              </Link>
+              {/* github */}
+              {'     '}
+              <Link
+                aria-label="GitHub"
+                color="inherit"
+                fontSize="large"
+                rel="noopener"
+                target="_blank"
+                href="https://github.com/heathernoto">
+                <GitHubIcon />
+              </Link>
             </center>
           </Paper>
         </Paper>

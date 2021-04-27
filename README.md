@@ -1,4 +1,4 @@
-## Heather's Portfolio - The Adult Version- Currently Under Construction
+## Heather's Portfolio - The Somewhat-More-Adult Version- Currently Under Construction
 
 My first portfolio site was designed quickly and meant to be playful and brief. Coming from early education and spending my adult life with children, I often feel like I've never reached adulthood and wisecrack that my resume should be written in Crayon. :laughing:
 
@@ -6,6 +6,6 @@ My first portfolio site was designed quickly and meant to be playful and brief. 
 
 ![original portfolio site](src/images/firstPage.png)
 
-So here is my more stylized, still playful, adult version!
+So here is my still playful, semi-adult version!
 
 ### Hope to talk to you!
