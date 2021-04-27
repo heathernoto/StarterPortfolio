@@ -1,5 +1,5 @@
-//import coverPhoto from '../src/tubcropped1.JPG';
-//import Container from '@material-ui/core/Container';
+import coverPhoto from '../src/images/tubcropped.JPG';
+
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
@@ -8,21 +8,40 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   landingWrapper: {
     display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
+    flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    alignContent: 'center',
   },
+
   bathtub: {
-    width: '100%',
-    // zIndex: -1,
-    alignSelf: 'flexEnd',
+    width: '88%',
+    zIndex: -10,
+    position: 'static',
   },
-  text: {
-    // zIndex: 1,
-    alignSelf: 'flexStart',
-    backgroundColor: 'aliceBlue',
+
+  textWrapper: {
+    padding: '.5rem',
+    zIndex: 10,
+    border: '5px double #331a00',
+    marginBottom: '15rem',
+    position: 'absolute',
+    backgroundColor: '#D6f3da',
+  },
+  textBox: {
+    padding: '.5rem',
+    backgroundColor: '#F2D3B1',
+    color: '383d4f',
+    border: '5px double #331a00',
+    textShadow:
+      '-1px -1px 0 #D6f3da, 1px -1px 0 #D6f3da, -1px 1px 0 #D6f3da, 1px 1px 0 #D6f3da',
+  },
+  name: {
+    fontSize: '2rem',
+    color: '#383d4f',
+  },
+  position: {
+    fontSize: '1.7rem',
+    color: '#383d4f',
   },
 }));
 
@@ -30,19 +49,21 @@ export default function Landing() {
   const classes = useStyles();
   return (
     <Grid container className={classes.landingWrapper}>
-      <Grid item xs={12}>
-        <img
-          alt="Beltway Bathtub"
-          // src={coverPhoto}
-          className="bathtub"
-        />
-      </Grid>
-
-      <Grid item>
-        <Paper className={classes.text} square="true">
-          Still in the wrong place dammit
+      <img
+        alt="Beltway Bathtub"
+        xs={12}
+        src={coverPhoto}
+        className={classes.bathtub}
+      />
+      <Paper className={classes.textWrapper} elevation={3} square="true">
+        <Paper className={classes.textBox} elevation={3}>
+          <center>
+            {' '}
+            <h1 className={classes.name}>Heather Berardo Noto</h1>
+            <h2 className={classes.position}>Full Stack Software Engineer</h2>
+          </center>
         </Paper>
-      </Grid>
+      </Paper>
     </Grid>
   );
 }

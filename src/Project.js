@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     boxShadow:
       '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
+    square: 'true',
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9
@@ -49,10 +50,8 @@ export default function Project() {
                 title={project.title}
               />
               <CardContent className={classes.cardContent} align="center">
-                <Typography gutterBottom variant="h6" component="h2">
-                  {project.title}
-                </Typography>
-                <Typography variant="body">{project.description}</Typography>
+                <Typography>{project.title}</Typography>
+                <Typography variant="body1">{project.description}</Typography>
               </CardContent>
               <CardActions className={classes.links}>
                 {/* YouTube demo */}

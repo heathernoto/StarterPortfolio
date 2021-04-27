@@ -1,7 +1,6 @@
 import pinItMain from './images/pinItMain.png';
 import blackMirrorMain from './images/blackMirrorMain.JPEG';
 import tranquilityMain from './images/tranquilityMain.png';
-//import firstPage from './images/firstPage.png';
 const projects = [
   {
     id: 1,
@@ -33,14 +32,6 @@ const projects = [
     image: blackMirrorMain,
     youTube: 'https://youtu.be/QR4CEY17qeY',
   },
-  // {
-  //   id: 4,
-  //   title: 'Crayola Colored Portfolio',
-  //   description:
-  //     "Like Peter Pan, I don't feel like I've grown up. I suddenly realized that my first portfolio site's color theme was reminiscent of a Crayola Box! I decided to rework it with more 'grownup' colors.",
-  //   gitHub: 'https://github.com/heathernoto/you-want-to-hire-me',
-  //   image: firstPage,
-  // },
 ];
 
 export default projects;

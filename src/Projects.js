@@ -1,5 +1,4 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Project from './Project';
@@ -8,7 +7,7 @@ import Paper from '@material-ui/core/Paper';
 const useStyles = makeStyles((theme) => ({
   wrapper: {
     padding: '.75rem 1.5rem 1.5rem 1.5rem',
-    margin: '3rem',
+    margin: '4rem',
     backgroundColor: 'aliceBlue',
   },
   projects: {
@@ -17,8 +16,8 @@ const useStyles = makeStyles((theme) => ({
   },
 
   cardGrid: {
-    paddingTop: theme.spacing(8),
-    paddingBottom: theme.spacing(8),
+    paddingTop: '2rem',
+    paddingBottom: '2rem',
   },
 }));
 
@@ -32,16 +31,11 @@ export default function Projects() {
         square="true"
         className={classes.wrapper}
         id="projects-section">
-        <div className={classes.projects}>
-          <Container maxWidth="sm">
-            <Typography align="center">
-              <h1>Some of My Projects...</h1>
-            </Typography>
-          </Container>
-        </div>
-
+        <h1>
+          <center>Some of My Projects...</center>
+        </h1>
         {/* cards  container */}
-        <Container className={classes.cardGrid} maxWidth="md">
+        <Container className={classes.cardGrid} xs={12} sm={6} md={4}>
           {/* each project card */}
           <Project />
         </Container>

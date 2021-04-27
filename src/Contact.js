@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
+//import Typography from '@material-ui/core/Typography';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Link from '@material-ui/core/Link';
@@ -14,50 +14,47 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
     justifyContent: 'space-evenly',
     alignItems: 'center',
-    marginBottom: '2rem',
+
+    padding: '.5rem',
   },
 }));
 
 export default function Contact() {
   const classes = useStyles();
   return (
-    <Paper
-      square="true"
-      elevation={3}
-      className={classes.root}
-      xs={12}
-      id="contact-section">
+    <Paper square="true" elevation={3} className={classes.root} xs={12}>
       <Link
         color="inherit"
         alt="Email Link"
         target="_blank"
         href="mailto:heather.noto@gmail.com">
-        <EmailIcon />
+        <EmailIcon fontSize="large" />
       </Link>
       <Link
         color="inherit"
         alt="LinkedIn Link"
         target="_blank"
         href="https://www.linkedin.com/in/heather-berardo-noto ">
-        <LinkedInIcon />
+        <LinkedInIcon fontSize="large" />
       </Link>
 
-      <Typography gutterBottom variant="h5" component="h2" align="center">
-        Let's connect!
-      </Typography>
+      <h1>
+        <center>Let's connect!</center>
+      </h1>
+
       <Link
         color="inherit"
         alt="GitHub Link"
         target="_blank"
         href="https://github.com/heathernoto">
-        <GitHubIcon />
+        <GitHubIcon fontSize="large" />
       </Link>
       <Link
         color="inherit"
         alt="Medium blog Link"
         target="_blank"
         href="https://heather-noto.medium.com/am-i-too-old-for-a-coding-bootcamp-aa24a84b8465">
-        <MenuBookIcon />
+        <MenuBookIcon fontSize="large" />
       </Link>
     </Paper>
   );

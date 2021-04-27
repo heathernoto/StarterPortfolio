@@ -14,7 +14,7 @@ import PhoneMissedIcon from '@material-ui/icons/PhoneMissed';
 const useStyles = makeStyles((theme) => ({
   paper: {
     padding: '.75rem 1.5rem 1.5rem 1.5rem',
-    margin: '3rem',
+    margin: '4rem',
     fontSize: '0.75rem',
     textAlign: 'center',
     fontWeight: 700,
@@ -34,16 +34,29 @@ export default function TechStack() {
       <Typography gutterBottom variant="h4" component="h2">
         <center>
           {' '}
-          <TitleIcon />
-          <ExplicitIcon />
-          <CopyrightIcon />
-          <Looks4Icon style={{ transform: 'rotate(-180deg)' }} />
+          <TitleIcon fontSize="large" />
+          <ExplicitIcon fontSize="large" />
+          <CopyrightIcon fontSize="large" />
+          <Looks4Icon
+            fontSize="large"
+            style={{ transform: 'rotate(-180deg)' }}
+          />
           {'   '}
-          <PolymerIcon style={{ transform: 'rotate(-90deg)' }} />
-          <TitleIcon />
-          <TextRotationNoneIcon />
-          <HeadsetIcon style={{ transform: 'rotate(-90deg)' }} />
-          <PhoneMissedIcon style={{ transform: 'rotate(90deg)' }} />
+          {'   '}
+          <PolymerIcon
+            fontSize="large"
+            style={{ transform: 'rotate(-90deg)' }}
+          />
+          <TitleIcon fontSize="large" />
+          <TextRotationNoneIcon fontSize="large" />
+          <HeadsetIcon
+            fontSize="large"
+            style={{ transform: 'rotate(-90deg)' }}
+          />
+          <PhoneMissedIcon
+            fontSize="large"
+            style={{ transform: 'rotate(90deg)' }}
+          />
         </center>
       </Typography>
       <Typography gutterBottom variant="body1" component="h2">

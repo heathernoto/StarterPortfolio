@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   aboutMe: {
     padding: '.75rem 1.5rem 1.5rem 1.5rem',
-    margin: '3rem',
+    margin: '4rem',
     fontSize: '0.75rem',
     textAlign: 'center',
     fontWeight: 700,
@@ -17,7 +17,7 @@ export default function AboutMe() {
   return (
     <section id="about-me-section">
       <Paper elevation={3} square="true" className={classes.aboutMe}>
-        <h1>About Me</h1>
+        <p className="title">About Me</p>
         <p>
           Originally in early childhood education, I left the workforce to raise
           my children and care for my parents. Though not "working", I was never
