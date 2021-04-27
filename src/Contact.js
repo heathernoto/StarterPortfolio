@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Contact() {
   const classes = useStyles();
   return (
-    <Paper square="true" elevation={3} className={classes.root} xs={12}>
+    <Paper square elevation={3} className={classes.root} xs={12}>
       <Link
         color="inherit"
         alt="Email Link"

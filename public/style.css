@@ -72,15 +72,11 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-
-/* Navbar */
-/* #nav-bar {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
+button {
+  background-color: aliceblue;
+  color: #383d4f;
   font-weight: bold;
-  padding-top: 10px;
-  color: whitesmoke;
-  position: fixed;
-} */
+}
+button :hover {
+  color: rgb(236, 31, 41);
+}

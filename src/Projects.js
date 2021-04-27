@@ -25,21 +25,19 @@ export default function Projects() {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
-      <Paper
-        elevation={3}
-        square="true"
-        className={classes.wrapper}
-        id="projects-section">
-        <h1>
-          <center>Some of My Projects...</center>
-        </h1>
-        {/* cards  container */}
-        <Container className={classes.cardGrid} xs={12} sm={6} md={4}>
-          {/* each project card */}
-          <Project />
-        </Container>
-      </Paper>
-    </React.Fragment>
+    <Paper
+      elevation={3}
+      square
+      className={classes.wrapper}
+      id="projects-section">
+      <h1>
+        <center>Some of My Projects...</center>
+      </h1>
+      {/* cards  container */}
+      <Container className={classes.cardGrid} xs={12} sm={6} md={4}>
+        {/* each project card */}
+        <Project />
+      </Container>
+    </Paper>
   );
 }
