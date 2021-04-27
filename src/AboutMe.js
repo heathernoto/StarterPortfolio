@@ -16,7 +16,7 @@ export default function AboutMe() {
   const classes = useStyles();
   return (
     <Paper elevation={3} square className={classes.aboutMe}>
-      <h1>AboutMe</h1>
+      <h1>About Me</h1>
       <p>
         Originally in early childhood education, I left the workforce to raise
         my children and care for my parents. Though not "working", I was never

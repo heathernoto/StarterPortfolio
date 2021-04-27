@@ -6,6 +6,6 @@ My first portfolio site was designed quickly and meant to be playful and brief. 
 
 ![original portfolio site](src/images/firstPage.png)
 
-So here is my still playful, semi-adult version!
+So here is my still playful, semi-adult version! Made with React and a mix of CSS and some Material UI.
 
 ### Hope to talk to you!

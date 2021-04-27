@@ -24,12 +24,12 @@ const useStyles = makeStyles((theme) => ({
 
   textWrapper: {
     marginTop: '2rem',
-    padding: '.15rem',
+    padding: '.1rem',
     zIndex: 1,
     border: '5px double #331a00',
     marginBottom: '15rem',
     position: 'absolute',
-    backgroundColor: 'aliceBlue',
+    backgroundColor: '#fcd9e1',
   },
   textBox: {
     padding: '.5rem',
