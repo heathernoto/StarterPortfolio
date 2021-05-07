@@ -1,70 +1,19 @@
 body {
   font-family: Verdana, Helvetica;
-  /* background-color: #383d4f; */
-  /* background-color: rgb(150, 146, 146); */
+  color: black;
   padding: 0;
   margin: 0;
-  color: #383d4f;
-  background: linear-gradient(175deg, #2c3869, #0b0c1b);
-  background-size: 600% 600%;
-
-  -webkit-animation: AnimationName 18s ease infinite;
-  -moz-animation: AnimationName 18s ease infinite;
-  animation: AnimationName 18s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
-#name {
-  align-self: center;
-  color: #383d4f;
-  font-size: 2rem;
-}
-#position {
-  align-self: center;
-  color: #383d4f;
-  font-size: 1rem;
+  background-color: whitesmoke;
 }
 /* all h1 tags */
 h1 {
   align-self: center;
-  color: #383d4f;
+  color: black;
   font-size: 2rem;
 }
 .title {
   align-self: center;
-  color: #383d4f;
+  color: black;
   font-size: 2rem;
 }
 
@@ -72,20 +21,17 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-/* POPUP Feature */
-button {
-  background-color: aliceblue;
-  color: #383d4f;
+/* Navbar */
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   font-weight: bold;
-}
-button :hover {
-  color: rgb(121, 219, 154);
-}
-.popup-content {
-  margin: auto;
-  align-self: center;
-  background: rgb(175, 199, 181);
-  width: 50%;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 0.5rem;
+  background-color: whitesmoke;
+  color: black;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }

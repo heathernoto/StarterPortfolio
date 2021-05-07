@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
+//import Paper from '@material-ui/core/Paper';
 //import Typography from '@material-ui/core/Typography';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -8,23 +8,27 @@ import MenuBookIcon from '@material-ui/icons/MenuBook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    backgroundColor: 'aliceBlue',
+  wrapper: {
+    backgroundColor: 'lightGrey',
+    color: 'white',
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
     alignItems: 'center',
-
-    padding: '.5rem',
+    padding: '2rem 2rem 4rem 2rem',
+  },
+  icon: {
+    color: 'black',
   },
 }));
 
 export default function Contact() {
   const classes = useStyles();
+
   return (
-    <Paper square elevation={3} className={classes.root} xs={12}>
+    <div className={classes.wrapper} id="contact-section">
       <Link
-        color="inherit"
+        className={classes.icon}
         aria-label="Email Link"
         rel="noopener"
         target="_blank"
@@ -32,7 +36,7 @@ export default function Contact() {
         <EmailIcon fontSize="large" />
       </Link>
       <Link
-        color="inherit"
+        className={classes.icon}
         aria-label="LinkedIn Link"
         rel="noopener"
         target="_blank"
@@ -45,7 +49,7 @@ export default function Contact() {
       </h1>
 
       <Link
-        color="inherit"
+        className={classes.icon}
         aria-label="GitHub Link"
         rel="noopener"
         target="_blank"
@@ -53,13 +57,13 @@ export default function Contact() {
         <GitHubIcon fontSize="large" />
       </Link>
       <Link
-        color="inherit"
+        className={classes.icon}
         aria-label="Medium blog Link"
         rel="noopener"
         target="_blank"
         href="https://heather-noto.medium.com/am-i-too-old-for-a-coding-bootcamp-aa24a84b8465">
         <MenuBookIcon fontSize="large" />
       </Link>
-    </Paper>
+    </div>
   );
 }
