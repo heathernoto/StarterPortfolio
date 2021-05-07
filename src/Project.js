@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9
+    margin: '.80rem',
   },
   cardContent: {
     fontSize: '1rem',
@@ -53,7 +54,9 @@ export default function Project() {
               />
               <CardContent className={classes.cardContent} align="center">
                 <h3>{project.title}</h3>
-                {project.shortDescription}
+                {project.longDescription}
+                <br />
+                Tools: {project.tools}
               </CardContent>
               <CardActions className={classes.links}>
                 {/* YouTube demo */}
