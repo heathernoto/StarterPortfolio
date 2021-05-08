@@ -53,9 +53,9 @@ export default function Project() {
                 title={project.title}
               />
               <CardContent className={classes.cardContent} align="center">
-                <h3>{project.title}</h3>
-                {project.shortDescription}
-                {project.longerDescription}
+                <b>{project.title}</b>
+                <br />
+                {project.shortDescription} {project.longerDescription}
                 <br />
                 Tools: {project.tools}
               </CardContent>
@@ -66,7 +66,7 @@ export default function Project() {
                     aria-label="Link to YouTube"
                     target="_blank"
                     href={project.youTube}
-                    color="inherit">
+                    rel="noopener">
                     <YouTubeIcon size="small" />
                   </Link>
                 )}
@@ -76,7 +76,7 @@ export default function Project() {
                     aria-label="Link to deployed project"
                     target="_blank"
                     href={project.link}
-                    color="inherit">
+                    rel="noopener">
                     <LinkIcon size="small" />
                   </Link>
                 )}
@@ -85,7 +85,7 @@ export default function Project() {
                   aria-label="Link to Github repo"
                   target="_blank"
                   href={project.gitHub}
-                  color="inherit">
+                  rel="noopener">
                   <GitHubIcon size="small" />
                 </Link>
               </CardActions>

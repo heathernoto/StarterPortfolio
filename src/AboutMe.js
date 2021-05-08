@@ -4,7 +4,6 @@ import family from './images/family.png';
 import coding from './images/working.png';
 import business from './images/happy.png';
 import Grid from '@material-ui/core/Grid';
-//import Slide from '@material-ui/core/Slide';
 
 const useStyles = makeStyles((theme) => ({
   wrapper: {
@@ -41,7 +40,6 @@ export default function AboutMe() {
     <Grid container className={classes.wrapper} id="about-me-section">
       <h1>About Me</h1>
       <Grid container spacing={6} className={classes.paragraphWrapper}>
-        {/* <Slide direction="right" in="true" timeout={3000} mountOnEnter> */}
         <Grid item xs={12} sm={6}>
           <Paper className={classes.paragraphs}>
             Originally in early childhood education, I left the workforce to
@@ -54,11 +52,12 @@ export default function AboutMe() {
             first website to keep in touch with far flung family and friends.
           </Paper>{' '}
         </Grid>
-        {/* </Slide> */}
+
         <Grid item xs={12} sm={6}>
           <img
             alt="family"
             height="300rem"
+            width="auto"
             src={family}
             className={classes.clipArt}
           />
@@ -70,6 +69,7 @@ export default function AboutMe() {
           <img
             alt="coding"
             width="300rem"
+            height="auto"
             src={coding}
             className={classes.clipArt}
           />
@@ -101,6 +101,7 @@ export default function AboutMe() {
           <img
             alt="jumping"
             width="250rem"
+            height="auto"
             src={business}
             className={classes.clipArt}
           />

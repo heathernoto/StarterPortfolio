@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
 
   NYC: {
     width: '70%',
+    height: 'auto',
     alignSelf: 'center',
     padding: '1rem',
     margin: '2rem',
@@ -42,9 +43,11 @@ const useStyles = makeStyles((theme) => ({
   name: {
     fontSize: '3.5rem',
     color: 'whiteSmoke',
+    textShadow: '3px 3px black',
   },
   position: {
     fontSize: '2rem',
+    textShadow: '3px 3px black',
   },
   icon: {
     color: 'white',
@@ -59,15 +62,16 @@ export default function Landing() {
       <Grid item xs={12} sm={6}>
         <img alt="Heather" src={coverPhoto} className={classes.NYC} />
       </Grid>
+
       <Grid item xs={12} sm={6}>
-        <div className={classes.textWrapper} elevation={3} square>
+        <Grid className={classes.textWrapper} elevation={3} square>
           {' '}
           <h1 className={classes.name}>
             Heather
             <br /> Berardo Noto
           </h1>
           <h2 className={classes.position}>Full Stack Software Engineer</h2>
-          <div className={classes.links}>
+          <Grid item className={classes.links}>
             {/* email */}
             <Link
               className={classes.icon}
@@ -99,8 +103,8 @@ export default function Landing() {
               href="https://github.com/heathernoto">
               <GitHubIcon className={classes.icon} />
             </Link>
-          </div>
-        </div>
+          </Grid>
+        </Grid>
       </Grid>
     </Grid>
   );

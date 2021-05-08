@@ -1,6 +1,5 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-//import Typography from '@material-ui/core/Typography';
 import TitleIcon from '@material-ui/icons/Title';
 import ExplicitIcon from '@material-ui/icons/Explicit';
 import CopyrightIcon from '@material-ui/icons/Copyright';
@@ -20,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
   tools: {
     padding: '2rem',
-    fontSize: '1rem',
+    fontSize: '1.5rem',
   },
 }));
 
@@ -29,7 +28,7 @@ export default function TechStack() {
 
   return (
     <div className={classes.paper} id="tech-section">
-      {/* <center> */} <TitleIcon aria-label="T" fontSize="large" />
+      <TitleIcon aria-label="T" fontSize="large" />
       <ExplicitIcon aria-label="E" fontSize="large" />
       <CopyrightIcon aria-label="C" fontSize="large" />
       <Looks4Icon
@@ -55,7 +54,7 @@ export default function TechStack() {
         fontSize="large"
         style={{ transform: 'rotate(90deg)' }}
       />
-      {/* </center> */}
+
       <div className={classes.tools}>
         JavaScript, React, Redux, HTML5, CSS3, Express, Sequelize, PostgreSQL,
         Node.js, Git/GitHub Puppeteer, Material-UI, Heroku, React Bootstrap,
