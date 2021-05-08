@@ -76,12 +76,11 @@ export default function AboutMe() {
         </Grid>
         <Grid item xs={12} sm={6}>
           <Paper className={classes.paragraphs}>
-            Recently, I turned my curiosity and industrious ways to coding and
-            taught myself JavaScript. During the pandemic, I applied to and was
-            accepted into the Grace Hopper Program at Fullstack Academy. An
-            immersive 17 week course focused on the NERD stack, I ate, slept,
-            and dreamt code - and I LOVED it. Becoming a full stack software
-            engineer is my pandemic positive!
+            Recently, I returned to coding and taught myself JavaScript. During
+            the pandemic, I applied to and was accepted into the Grace Hopper
+            Program at Fullstack Academy. An immersive 17 week course focused on
+            the NERD stack, I ate, slept, and dreamt code - and I LOVED it.
+            Becoming a full stack software engineer is my pandemic positive!
           </Paper>
         </Grid>
       </Grid>
