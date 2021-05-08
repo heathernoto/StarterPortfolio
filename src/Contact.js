@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
     justifyContent: 'space-evenly',
     alignItems: 'center',
-    padding: '2rem 2rem 4rem 2rem',
+    padding: '2rem ',
   },
   icon: {
     color: 'black',

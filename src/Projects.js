@@ -1,22 +1,21 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
+//import Container from '@material-ui/core/Container';
 import Project from './Project';
-//import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
   wrapper: {
     backgroundColor: 'aliceBlue',
-
     padding: '2rem',
     justifyContent: 'center',
+    direction: 'column',
   },
 
   cardGrid: {
     padding: '2rem',
     margin: '2rem',
-    display: 'flex',
-    flexDirection: 'column',
+    justify: 'space-between',
   },
   heading: {
     paddingTop: '1rem',
@@ -29,13 +28,13 @@ export default function Projects() {
   const classes = useStyles();
 
   return (
-    <div className={classes.wrapper} id="projects-section">
+    <Grid container className={classes.wrapper} id="projects-section">
       <h1 className={classes.heading}>Some of My Projects...</h1>
       {/* cards  container */}
-      <Container className={classes.cardGrid}>
+      <Grid item className={classes.cardGrid}>
         {/* each project card */}
         <Project />
-      </Container>
-    </div>
+      </Grid>
+    </Grid>
   );
 }

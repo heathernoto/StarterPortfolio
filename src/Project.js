@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
     display: 'flex',
     flexDirection: 'column',
-    margin: '2rem',
+    margin: '4rem',
     justifyContent: 'center',
 
     boxShadow:
@@ -54,7 +54,8 @@ export default function Project() {
               />
               <CardContent className={classes.cardContent} align="center">
                 <h3>{project.title}</h3>
-                {project.longDescription}
+                {project.shortDescription}
+                {project.longerDescription}
                 <br />
                 Tools: {project.tools}
               </CardContent>

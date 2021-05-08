@@ -3,7 +3,7 @@ body {
   color: black;
   padding: 0;
   margin: 0;
-  background-color: whitesmoke;
+  background-color: gray;
 }
 /* all h1 tags */
 h1 {
@@ -28,7 +28,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-weight: bold;
-  padding: 0.5rem;
+  padding: 1rem;
   background-color: whitesmoke;
   color: black;
   position: fixed;

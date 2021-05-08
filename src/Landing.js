@@ -40,11 +40,11 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-evenly',
   },
   name: {
-    fontSize: '2.5rem',
+    fontSize: '3.5rem',
     color: 'whiteSmoke',
   },
   position: {
-    fontSize: '1.5rem',
+    fontSize: '2rem',
   },
   icon: {
     color: 'white',
