@@ -64,7 +64,7 @@ export default function Landing() {
       </Grid>
 
       <Grid item xs={12} sm={6}>
-        <Grid className={classes.textWrapper} elevation={3} square>
+        <Grid className={classes.textWrapper} elevation={3}>
           {' '}
           <h1 className={classes.name}>
             Heather

@@ -13,8 +13,8 @@ const useStyles = makeStyles((theme) => ({
   },
 
   cardGrid: {
-    padding: '2rem',
-    margin: '2rem',
+    padding: '1rem',
+    margin: '1rem',
     justify: 'space-between',
   },
   heading: {
