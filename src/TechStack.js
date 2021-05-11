@@ -8,6 +8,7 @@ import PolymerIcon from '@material-ui/icons/Polymer';
 import TextRotationNoneIcon from '@material-ui/icons/TextRotationNone';
 import HeadsetIcon from '@material-ui/icons/Headset';
 import PhoneMissedIcon from '@material-ui/icons/PhoneMissed';
+// import resume from './HeatherBerardoNoto5-3-21.pdf';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -21,6 +22,10 @@ const useStyles = makeStyles((theme) => ({
     padding: '2rem',
     fontSize: '1.5rem',
   },
+  // resume: {
+  //   color: 'white',
+  //   fontSize: '2rem',
+  // },
 }));
 
 export default function TechStack() {
@@ -61,6 +66,15 @@ export default function TechStack() {
         Expo Camera/Face Detector
         <br />
         <b>And I'm adding to my knowledge base every day!</b>
+        <br />
+        {/* <a
+          href={resume}
+          aria-label="resume"
+          target="blank"
+          rel="noopener"
+          className={classes.resume}>
+          Download my resume
+        </a> */}
       </div>
     </div>
   );

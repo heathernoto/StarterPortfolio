@@ -4,6 +4,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import Link from '@material-ui/core/Link';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import resume from './Heather Berardo Noto 5:3:21.pdf';
 
 const useStyles = makeStyles((theme) => ({
   wrapper: {
@@ -13,10 +14,14 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
     justifyContent: 'space-evenly',
     alignItems: 'center',
-    padding: '2rem ',
+    padding: '2rem  ',
   },
   icon: {
     color: 'black',
+  },
+  resume: {
+    color: 'black',
+    fontSize: '1.5rem',
   },
 }));
 
@@ -42,10 +47,17 @@ export default function Contact() {
         <LinkedInIcon fontSize="large" />
       </Link>
 
-      <h1>
+      {/* <h1>
         <center>Let's connect!</center>
-      </h1>
-
+      </h1> */}
+      <a
+        href={resume}
+        aria-label="resume"
+        target="blank"
+        rel="noopener"
+        className={classes.resume}>
+        Download my resume
+      </a>
       <Link
         className={classes.icon}
         aria-label="GitHub Link"
