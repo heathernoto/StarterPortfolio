@@ -17,11 +17,11 @@ export default function AboutMe() {
           up and long before Facebook and blogs, I designed my first website to
           keep in touch with far flung family and friends.
         </div>{' '}
-        <img alt="family" src={family} class="about-me-pic" />
+        <img alt="family" src={family} class="about-me-pic-family" />
       </div>
 
       <div class="about-me-sec-wrapper">
-        <img alt="coding" src={coding} class="about-me-pic" />
+        <img alt="coding" src={coding} class="about-me-pic-school" />
 
         <div class="about-me-text">
           Recently, I returned to coding and taught myself JavaScript. During
@@ -42,7 +42,7 @@ export default function AboutMe() {
           know what to do when everyone is crying!
         </div>
 
-        <img alt="jumping" src={business} class="about-me-pic" />
+        <img alt="jumping" src={business} class="about-me-pic-hooray" />
       </div>
     </div>
   );
