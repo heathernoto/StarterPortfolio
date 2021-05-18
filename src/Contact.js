@@ -78,7 +78,7 @@ export default function Contact() {
         target="blank"
         rel="noopener"
         className={classes.resume}>
-        <h2>Download My Resume</h2>
+        <h3>Download My Resume</h3>
       </a>
     </>
   );
