@@ -8,8 +8,8 @@ import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles((theme) => ({
   landingWrapper: {
-    // display: 'flex',
-    // flexDirection: 'row',
+    display: 'flex',
+    flexDirection: 'row',
     padding: '3rem',
     justifyContent: 'center',
     alignItems: 'center',
@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     width: '70%',
     height: 'auto',
     alignSelf: 'center',
+    justifyContent: 'center',
     padding: '1rem',
     margin: '2rem',
     backgroundColor: 'whitesmoke',

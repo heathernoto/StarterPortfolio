@@ -46,17 +46,17 @@ h3 {
   flex-direction: column;
   background-image: linear-gradient(#ecf4fc, #bcdbf9);
 }
-@media screen and (max-width: 992px) {
-  .about-me-sec-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    margin: 2rem;
-    padding: 1rem;
-  }
+/* @media screen and (max-width: 992px) { */
+.about-me-sec-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 2rem;
+  padding: 1rem;
 }
+/* } */
 @media screen and (max-width: 600px) {
   .about-me-sec-wrapper {
     display: flex;
@@ -69,19 +69,19 @@ h3 {
   }
 }
 
-@media screen and (max-width: 992px) {
-  .about-me-text {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: whitesmoke;
-    font-size: 1rem;
-    padding: 2rem;
-    max-width: 40%;
-    align-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+/* @media screen and (max-width: 992px) { */
+.about-me-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  font-size: 1rem;
+  padding: 2rem;
+  max-width: 40%;
+  align-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/* } */
 @media screen and (max-width: 600px) {
   .about-me-text {
     display: flex;
