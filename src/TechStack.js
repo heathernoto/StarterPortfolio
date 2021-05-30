@@ -1,5 +1,4 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import TitleIcon from '@material-ui/icons/Title';
 import ExplicitIcon from '@material-ui/icons/Explicit';
 import CopyrightIcon from '@material-ui/icons/Copyright';
@@ -8,31 +7,10 @@ import PolymerIcon from '@material-ui/icons/Polymer';
 import TextRotationNoneIcon from '@material-ui/icons/TextRotationNone';
 import HeadsetIcon from '@material-ui/icons/Headset';
 import PhoneMissedIcon from '@material-ui/icons/PhoneMissed';
-// import resume from './HeatherBerardoNoto5-3-21.pdf';
-
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    padding: '2rem 4rem',
-    fontSize: '0.75rem',
-    textAlign: 'center',
-    backgroundColor: '#192bc2',
-    color: 'white',
-  },
-  tools: {
-    padding: '2rem',
-    fontSize: '1.5rem',
-  },
-  // resume: {
-  //   color: 'white',
-  //   fontSize: '2rem',
-  // },
-}));
 
 export default function TechStack() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.paper} id="tech-section">
+    <div className="tech-wrapper" id="tech-section">
       <TitleIcon aria-label="T" fontSize="large" />
       <ExplicitIcon aria-label="E" fontSize="large" />
       <CopyrightIcon aria-label="C" fontSize="large" />
@@ -47,7 +25,7 @@ export default function TechStack() {
         fontSize="large"
         style={{ transform: 'rotate(-90deg)' }}
       />
-      <TitleIcon aria-label="T" fontSize="large" className={classes.icons} />
+      <TitleIcon aria-label="T" fontSize="large" className="tech-stack" />
       <TextRotationNoneIcon aria-label="A" fontSize="large" />
       <HeadsetIcon
         aria-label="C"
@@ -60,21 +38,16 @@ export default function TechStack() {
         style={{ transform: 'rotate(90deg)' }}
       />
 
-      <div className={classes.tools}>
-        JavaScript, React, Redux, HTML5, CSS3, Express, Sequelize, PostgreSQL,
-        Node.js, Git/GitHub Puppeteer, Material-UI, Heroku, React Bootstrap,
-        Expo Camera/Face Detector
+      <div className="tech-tools">
+        <b>Proficient:</b> JavaScript, React, Redux, HTML5, CSS3, Express,
+        Sequelize, PostgreSQL, Node.js, Git/GitHub, Puppeteer, Material-UI,
+        Heroku, React Native Expo Camera/Face Detector
         <br />
-        <b>And I'm adding to my knowledge base every day!</b>
+        <b>Familiar:</b> Webpack, Babel, React Bootstrap, OAuth, Socket.IO
+        <hr />
+        I'm adding to my knowledge base every day!
         <br />
-        {/* <a
-          href={resume}
-          aria-label="resume"
-          target="blank"
-          rel="noopener"
-          className={classes.resume}>
-          Download my resume
-        </a> */}
+        Currently, I'm learning GraphQL, AWS Cloud Services.
       </div>
     </div>
   );

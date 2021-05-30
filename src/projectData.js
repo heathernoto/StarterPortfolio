@@ -8,7 +8,7 @@ const projects = [
     shortDescription:
       'A web app that allows users to save articles for future reading.',
     longerDescription:
-      "Capstone Project written with three fellow Grace Hopper students. This app uses Puppeteer's web scraping functionality to collect user specifies articles.  The articles are then saved in synced cloud and local databases for future on or offline reading.",
+      "Written with three fellow Grace Hopper students as a capstone project, this app uses Puppeteer's web scraping functionality to collect user specifies articles.  The articles are then saved in synced cloud and local databases for future on or offline reading.",
     link: 'https://pin-it-reader.herokuapp.com/',
     gitHub: 'https://github.com/pin-it-ghp2011/Pin-It',
     image: pinItMain,

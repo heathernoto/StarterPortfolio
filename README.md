@@ -1,4 +1,5 @@
 ## Heather's Portfolio - The Somewhat-More-Adult Version
+
 (Initially Material-UI gradually replacing with vanilla CSS)
 
 [My Portfolio Site](https://heather-berardo-noto.netlify.app/)
@@ -9,6 +10,5 @@ My first portfolio site was designed quickly and meant to be playful and brief. 
 
 ![original portfolio site](src/images/firstPage.png)
 
-So here is my still playful, semi-adult version! Made with React and a mix of CSS and some Material UI.
-
-### Hope to talk to you!
+So here is my still playful, semi-adult version!
+Made with React and a shifting mix of CSS and some Material UI. (Because CSS...grr..this is a good place to experiment and try to wrestle it into submission.)

@@ -6,8 +6,8 @@ export default function AboutMe() {
   return (
     <div id="about-me-section">
       <h1>About Me</h1>
-      <div class="about-me-sec-wrapper">
-        <div class="about-me-text">
+      <div className="about-me-sec-wrapper">
+        <div className="about-me-text">
           Originally in early childhood education, I left the workforce to raise
           my children and care for my parents. Curious by nature, I used any
           spare time to continue learning. I always want to know how things
@@ -17,13 +17,13 @@ export default function AboutMe() {
           up and long before Facebook and blogs, I designed my first website to
           keep in touch with far flung family and friends.
         </div>{' '}
-        <img alt="family" src={family} class="about-me-pic-family" />
+        <img alt="family" src={family} className="about-me-pic-family" />
       </div>
 
-      <div class="about-me-sec-wrapper">
-        <img alt="coding" src={coding} class="about-me-pic-school" />
+      <div className="about-me-sec-wrapper">
+        <img alt="coding" src={coding} className="about-me-pic-school" />
 
-        <div class="about-me-text">
+        <div className="about-me-text">
           Recently, I returned to coding and taught myself JavaScript. During
           the pandemic, I applied to and was accepted into the Grace Hopper
           Program at Fullstack Academy. An immersive 17 week course focused on
@@ -31,8 +31,8 @@ export default function AboutMe() {
           Becoming a full stack software engineer is my pandemic positive!
         </div>
       </div>
-      <div class="about-me-sec-wrapper">
-        <div class="about-me-text">
+      <div className="about-me-sec-wrapper">
+        <div className="about-me-text">
           My bootcamp experience has given me a sturdy foundation and I am
           excited for this new chapter in my life. I am looking forward to
           joining a team and continuing to learn. I am a positive and supportive
@@ -42,7 +42,7 @@ export default function AboutMe() {
           know what to do when everyone is crying!
         </div>
 
-        <img alt="jumping" src={business} class="about-me-pic-hooray" />
+        <img alt="jumping" src={business} className="about-me-pic-hooray" />
       </div>
     </div>
   );
