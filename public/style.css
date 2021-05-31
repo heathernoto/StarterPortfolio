@@ -29,7 +29,7 @@ h3 {
 a:hover.landing-links,
 a:hover.project-links-icon,
 a:hover.contact-icons {
-  color: #f541a4;
+  color: #da1e85;
 }
 
 /* Navbar */
@@ -51,11 +51,11 @@ a:hover.contact-icons {
 .landing-page-wrapper {
   display: flex;
   flex-direction: row;
-  padding: 3rem;
+  padding: 5rem 3rem 3rem 3rem;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom right, #081f4b, #1b51b6);
-  /* background-color: #1b51b6; */
+  /* background: linear-gradient(to bottom right, #081f4b, #1b51b6); */
+  background-color: #1b51b6;
 }
 @media screen and (max-width: 480px) {
   .landing-page-wrapper {
@@ -69,13 +69,13 @@ a:hover.contact-icons {
   }
 }
 .NYC {
-  max-width: auto;
-  max-height: 300px;
-  min-width: 250px;
+  max-width: 40%;
+  max-height: auto;
+  min-width: 35%;
   min-width: auto;
   align-self: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.75rem;
   margin: 2rem;
   background-color: whitesmoke;
   border: 1px solid black;
