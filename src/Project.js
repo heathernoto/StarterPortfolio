@@ -1,98 +1,61 @@
-// import React from 'react';
-// import Card from '@material-ui/core/Card';
-// import CardActions from '@material-ui/core/CardActions';
-// import CardContent from '@material-ui/core/CardContent';
-// import CardMedia from '@material-ui/core/CardMedia';
-// import { makeStyles } from '@material-ui/core/styles';
-// import YouTubeIcon from '@material-ui/icons/YouTube';
-// import LinkIcon from '@material-ui/icons/Link';
-// import GitHubIcon from '@material-ui/icons/GitHub';
-// import Link from '@material-ui/core/Link';
-// import projects from './projectData';
+import React from 'react';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import LinkIcon from '@material-ui/icons/Link';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import projects from './projectData';
 
-// const useStyles = makeStyles((theme) => ({
-//   card: {
-//     height: '100%',
-//     display: 'flex',
-//     flexDirection: 'column',
-//     margin: '2rem',
-//     justifyContent: 'center',
-
-//     boxShadow:
-//       '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
-//   },
-//   cardMedia: {
-//     paddingTop: '56.25%', // 16:9
-//     margin: '.80rem',
-//   },
-//   cardContent: {
-//     fontSize: '1rem',
-//     backgroundColor: '#484848',
-//     color: 'white',
-//     padding: '1rem',
-//   },
-//   links: {
-//     backgroundColor: 'white',
-//     justifyContent: 'space-evenly',
-//     color: '#192bc2',
-//   },
-// }));
-
-// export default function Project() {
-//   const classes = useStyles();
-
-//   return (
-//     <>
-//       {projects.map((project) => {
-//         return (
-//           <div key={project.id}>
-//             <Card className={classes.card}>
-//               <CardMedia
-//                 className={classes.cardMedia}
-//                 image={project.image}
-//                 title={project.title}
-//               />
-//               <CardContent className={classes.cardContent} align="center">
-//                 <b>{project.title}</b>
-//                 <br />
-//                 {project.shortDescription} {project.longerDescription}
-//                 <br />
-//                 Tools: {project.tools}
-//               </CardContent>
-//               <CardActions className={classes.links}>
-//                 {/* YouTube demo */}
-//                 {project.youTube && (
-//                   <Link
-//                     aria-label="Link to YouTube"
-//                     target="_blank"
-//                     href={project.youTube}
-//                     rel="noopener">
-//                     <YouTubeIcon size="small" />
-//                   </Link>
-//                 )}
-//                 {/* link if deployed */}
-//                 {project.link && (
-//                   <Link
-//                     aria-label="Link to deployed project"
-//                     target="_blank"
-//                     href={project.link}
-//                     rel="noopener">
-//                     <LinkIcon size="small" />
-//                   </Link>
-//                 )}
-//                 {/* GitHub repo */}
-//                 <Link
-//                   aria-label="Link to Github repo"
-//                   target="_blank"
-//                   href={project.gitHub}
-//                   rel="noopener">
-//                   <GitHubIcon size="small" />
-//                 </Link>
-//               </CardActions>
-//             </Card>
-//           </div>
-//         );
-//       })}
-//     </>
-//   );
-// }
+export default function Project() {
+  return (
+    <>
+      {projects.map((project) => {
+        return (
+          <div key={project.id} className="project-card">
+            <img alt="Pin It" src={project.image} className="project-media" />
+            <div className="project-content" align="center">
+              <h2> {project.title}</h2>
+              {project.shortDescription}
+              <br />
+              {project.longerDescription}
+              <br />
+              Tools: {project.tools}
+              <br />
+              <div className="project-links">
+                {/* YouTube demo */}
+                {project.youTube && (
+                  <a
+                    className="project-links-icon"
+                    aria-label="Link to YouTube"
+                    target="_blank"
+                    href={project.youTube}
+                    rel="noreferrer">
+                    <YouTubeIcon />
+                  </a>
+                )}
+                {/* link if deployed */}
+                {project.link && (
+                  <a
+                    className="project-links-icon"
+                    aria-label="Link to deployed project"
+                    target="_blank"
+                    href={project.link}
+                    rel="noreferrer">
+                    <LinkIcon />
+                  </a>
+                )}
+                {/* GitHub repo */}
+                <a
+                  className="project-links-icon"
+                  aria-label="Link to Github repo"
+                  target="_blank"
+                  href={project.gitHub}
+                  rel="noreferrer">
+                  <GitHubIcon />
+                </a>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </>
+  );
+}
