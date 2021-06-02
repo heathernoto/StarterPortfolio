@@ -47,7 +47,7 @@ export default function TechStack() {
         <hr />
         I'm adding to my knowledge base every day!
         <br />
-        Currently, I'm learning GraphQL, AWS Cloud Services.
+        Currently, I'm learning GraphQL and AWS Cloud Services.
       </div>
     </div>
   );
