@@ -8,7 +8,7 @@ import './Contact.css';
 export default function Contact() {
   return (
     <>
-      <div className="contact-wrapper" id="contact-nav">
+      <div className="contact-wrapper" id="contact__nav">
         <a
           className="contact-icons"
           aria-label="Email Link"
