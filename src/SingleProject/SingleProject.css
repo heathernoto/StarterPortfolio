@@ -38,6 +38,6 @@
 }
 @media screen and (min-width: 600px) {
   .project-card {
-    margin: 0.5rem;
+    margin: 3rem;
   }
 }
