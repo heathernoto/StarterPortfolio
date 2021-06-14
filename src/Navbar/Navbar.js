@@ -1,31 +1,28 @@
 import { Link } from 'react-scroll';
+import './Navbar.css';
 
 export default function Navbar() {
   return (
-    <nav id="nav-bar">
+    <nav className="navigation">
       <Link
-        to="about-me-section"
+        to="about-me__nav"
         activeClass="active"
         smooth={true}
         duration={1000}>
         About
       </Link>
       <Link
-        to="projects-section"
+        to="projects__nav"
         activeClass="active"
         smooth={true}
         duration={1000}>
         Projects
       </Link>
-      <Link
-        to="tech-section"
-        activeClass="active"
-        smooth={true}
-        duration={1000}>
+      <Link to="tech__nav" activeClass="active" smooth={true} duration={1000}>
         Technologies
       </Link>
       <Link
-        to="contact-section"
+        to="contact__nav"
         activeClass="active"
         smooth={true}
         duration={1000}>

@@ -1,0 +1,14 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+  padding: 1rem 0rem;
+  background-image: linear-gradient(whitesmoke, #9ec9f5);
+  color: black;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+}

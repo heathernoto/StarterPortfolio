@@ -7,10 +7,11 @@ import PolymerIcon from '@material-ui/icons/Polymer';
 import TextRotationNoneIcon from '@material-ui/icons/TextRotationNone';
 import HeadsetIcon from '@material-ui/icons/Headset';
 import PhoneMissedIcon from '@material-ui/icons/PhoneMissed';
+import './TechStack.css';
 
 export default function TechStack() {
   return (
-    <div className="tech-wrapper" id="tech-section">
+    <div className="tech-wrapper" id="tech__nav">
       <TitleIcon aria-label="T" fontSize="large" />
       <ExplicitIcon aria-label="E" fontSize="large" />
       <CopyrightIcon aria-label="C" fontSize="large" />

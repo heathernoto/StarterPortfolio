@@ -1,0 +1,71 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-blue);
+}
+.landing__img {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+}
+.NYC {
+  max-width: 75%;
+  max-height: auto;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.landing__text {
+  max-width: 90%;
+  color: whiteSmoke;
+  text-align: center;
+  padding: 1rem;
+}
+.landing__name {
+  color: whiteSmoke;
+  text-shadow: 3px 3px black;
+  align-self: center;
+}
+.landing__position {
+  color: whitesmoke;
+  text-shadow: 3px 3px black;
+}
+.landing__links-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.landing__links {
+  color: white;
+}
+/* Desktop */
+@media screen and (min-width: 600px) {
+  .landing {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 3rem 3rem 3rem;
+    background-color: var(--main-blue);
+  }
+  .landing__img {
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .NYC {
+    background-color: whitesmoke;
+    border: 1px solid black;
+  }
+  .landing__text {
+    max-width: 50%;
+    color: whiteSmoke;
+    text-align: center;
+  }
+}
