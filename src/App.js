@@ -1,9 +1,9 @@
-import Landing from './Landing';
-import AboutMe from './AboutMe';
-import Projects from './Projects';
-import TechStack from './TechStack';
-import Contact from './Contact';
-import Navbar from './Navbar';
+import Landing from './Landing/Landing';
+import AboutMe from './AboutMe/AboutMe';
+import AllProjects from './AllProjects/AllProjects';
+import TechStack from './TechStack/TechStack';
+import Contact from './Contact/Contact';
+import Navbar from './Navbar/Navbar';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Landing />
       <AboutMe />
-      <Projects />
+      <AllProjects />
       <TechStack />
       <Contact />
     </div>

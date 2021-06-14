@@ -3,8 +3,9 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 import LinkIcon from '@material-ui/icons/Link';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import projects from './projectData';
+import './SingleProject.css';
 
-export default function Project() {
+export default function SingleProject() {
   return (
     <>
       {projects.map((project) => {

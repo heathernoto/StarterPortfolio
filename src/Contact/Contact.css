@@ -1,0 +1,12 @@
+.contact-wrapper {
+  background-image: linear-gradient(whitesmoke, #9ec9f5);
+  color: whiteSmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: auto;
+}
+.contact-icons {
+  color: black;
+}

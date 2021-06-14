@@ -1,6 +1,6 @@
-import pinItMain from './images/pinItMain.png';
-import blackMirrorMain from './images/blackMirrorMain.JPEG';
-import tranquilityMain from './images/tranquilityMain.png';
+import pinItMain from '../images/pinItMain.png';
+import blackMirrorMain from '../images/blackMirrorMain.JPEG';
+import tranquilityMain from '../images/tranquilityMain.png';
 const projects = [
   {
     id: 1,

@@ -1,0 +1,13 @@
+/* tech wrapper */
+.tech-wrapper {
+  padding: 3rem;
+  font-size: 0.75rem;
+  text-align: center;
+  background-color: #1b51b6;
+  color: whitesmoke;
+}
+
+.tech-tools {
+  padding: 0.75rem;
+  font-size: 1.2rem;
+}

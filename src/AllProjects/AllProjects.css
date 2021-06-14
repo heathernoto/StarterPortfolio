@@ -1,0 +1,13 @@
+.all-project-wrapper {
+  background-color: aliceblue;
+  padding: 0.5rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+/* Desktop */
+@media screen and (min-width: 600px) {
+  .all-project-wrapper {
+    padding: 4rem;
+  }
+}
