@@ -1,7 +1,6 @@
 /* Project */
 
 .project-card {
-  height: auto;
   display: flex;
   flex-direction: column;
   margin: 2rem;

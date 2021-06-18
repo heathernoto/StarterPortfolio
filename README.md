@@ -1,6 +1,6 @@
 ## Heather's Portfolio - The Somewhat-More-Adult Version
 
-(Initially Material-UI gradually replacing with vanilla CSS)
+Initially Material-UI gradually replacing with vanilla CSS. As well a portfolio, this is somewhere for me to experiement. Way more folders than I need as I test using different sheets per component.
 
 [My Portfolio Site](https://heather-berardo-noto.netlify.app/)
 
