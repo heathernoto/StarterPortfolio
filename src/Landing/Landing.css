@@ -24,17 +24,17 @@
 }
 .landing__text {
   max-width: 90%;
-  color: whiteSmoke;
+  color: var(--light-text);
   text-align: center;
   padding: 1rem;
 }
 .landing__name {
-  color: whiteSmoke;
+  color: var(--light-text);
   text-shadow: 3px 3px black;
   align-self: center;
 }
 .landing__position {
-  color: whitesmoke;
+  color: var(--light-text);
   text-shadow: 3px 3px black;
 }
 .landing__links-box {
@@ -43,7 +43,7 @@
   justify-content: space-evenly;
 }
 .landing__links {
-  color: white;
+  color: var(--light-text);
 }
 /* Desktop */
 @media screen and (min-width: 600px) {

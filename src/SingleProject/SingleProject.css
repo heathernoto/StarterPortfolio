@@ -5,7 +5,7 @@
   flex-direction: column;
   margin: 2rem;
   justify-content: center;
-  background-color: #5f6a6a;
+  background-color: var(--project-background);
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -21,7 +21,7 @@
   max-height: auto;
   display: flex;
   flex-direction: column;
-  color: white;
+  color: var(--light-text);
   margin: 1rem;
 }
 .project-links {
@@ -32,7 +32,7 @@
 }
 
 .project-links-icon {
-  color: whitesmoke;
+  color: var(--light-text);
   padding: 10px;
 }
 @media screen and (min-width: 600px) {

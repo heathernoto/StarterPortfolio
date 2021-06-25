@@ -5,6 +5,9 @@ body {
   margin: 0;
   background-color: gray;
   --main-blue: #1b51b6;
+  --project-background: rgb(132, 141, 165);
+  --dark-text: navy;
+  --light-text: whitesmoke;
 }
 .entire-box {
   display: flex;
@@ -13,13 +16,13 @@ body {
 /* all h1 tags */
 h1 {
   align-self: center;
-  color: black;
+  color: var(--dark-text);
   font-size: 2rem;
 }
 
 h3 {
   align-self: center;
-  color: black;
+  color: var(--dark-text);
   font-size: 1.5rem;
 }
 

@@ -8,5 +8,5 @@
   padding: auto;
 }
 .contact-icons {
-  color: black;
+  color: var(--dark-text);
 }

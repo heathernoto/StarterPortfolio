@@ -1,6 +1,7 @@
 import pinItMain from '../images/pinItMain.png';
 import blackMirrorMain from '../images/blackMirrorMain.JPEG';
 import tranquilityMain from '../images/tranquilityMain.png';
+import mintbean from '../images/MintbeanChallenge.png';
 const projects = [
   {
     id: 1,
@@ -40,6 +41,17 @@ const projects = [
     image: blackMirrorMain,
     tools: 'React Native, JavaScript, Expo Camera, Expo Facial Recognition',
     youTube: 'https://youtu.be/QR4CEY17qeY',
+  },
+  {
+    id: 4,
+    title: "Mintbean's Learn-A-Bit Challenge",
+    shortDescription: 'A weekly mini-hackathon. At the midpoint currently.',
+    longerDescription:
+      'This series of weekly design challenges are meant to take you back to the basic of CSS and HTML.  Given a design, replicate it with only HTML and CSS. Make it mobile-first and strive for best practices.',
+    image: mintbean,
+    tools: 'HTML and CSS only',
+    link: 'https://heathers-learn-a-bit.netlify.app/',
+    github: 'https://github.com/heathernoto/Learn-a-bit',
   },
 ];
 

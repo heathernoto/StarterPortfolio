@@ -4,7 +4,7 @@
   font-size: 0.75rem;
   text-align: center;
   background-color: #1b51b6;
-  color: whitesmoke;
+  color: var(--light-text);
 }
 
 .tech-tools {

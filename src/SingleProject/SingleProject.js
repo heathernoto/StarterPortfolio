@@ -29,7 +29,7 @@ export default function SingleProject() {
                     target="_blank"
                     href={project.youTube}
                     rel="noreferrer">
-                    <YouTubeIcon />
+                    <YouTubeIcon fontSize="large" />
                   </a>
                 )}
                 {/* link if deployed */}
@@ -40,7 +40,7 @@ export default function SingleProject() {
                     target="_blank"
                     href={project.link}
                     rel="noreferrer">
-                    <LinkIcon />
+                    <LinkIcon fontSize="large" />
                   </a>
                 )}
                 {/* GitHub repo */}
@@ -50,7 +50,7 @@ export default function SingleProject() {
                   target="_blank"
                   href={project.gitHub}
                   rel="noreferrer">
-                  <GitHubIcon />
+                  <GitHubIcon fontSize="large" />
                 </a>
               </div>
             </div>

@@ -21,6 +21,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   background-color: whitesmoke;
+  color: var(--dark-text);
   font-size: 1rem;
   padding: 2rem;
   margin: 2rem;
