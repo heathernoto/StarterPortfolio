@@ -9,7 +9,7 @@ export default function AboutMe() {
       <h1>About Me</h1>
       <div className="about-me__box">
         <div className="about-me__box-img">
-          <img alt="family" src={family} className="about-me__pic" />
+          <img alt="family" src={family} className="about-me__pic-family" />
         </div>
         <div className="about-me__box-text">
           Originally in early childhood education, I left the workforce to care
@@ -23,9 +23,6 @@ export default function AboutMe() {
       </div>
 
       <div className="about-me__box">
-        <div className="about-me__box-img">
-          <img alt="coding" src={coding} className="about-me__pic" />
-        </div>
         <div className="about-me__box-text">
           When my plans to return to work were derailed by the pandemic, I
           returned to coding. I had forgotten how much I enjoyed the problem
@@ -36,10 +33,13 @@ export default function AboutMe() {
           and dreamt code - and I LOVED IT. Becoming a full stack software
           engineer is my pandemic positive!
         </div>
+        <div className="about-me__box-img">
+          <img alt="coding" src={coding} className="about-me__pic-code" />
+        </div>
       </div>
       <div className="about-me__box">
         <div className="about-me__box-img">
-          <img alt="jumping" src={business} className="about-me__pic" />
+          <img alt="jumping" src={business} className="about-me__pic-hooray" />
         </div>
         <div className="about-me__box-text">
           My bootcamp experience has given me a sturdy foundation and the tools

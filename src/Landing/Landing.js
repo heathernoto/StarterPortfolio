@@ -28,7 +28,7 @@ export default function Landing() {
             rel="noreferrer"
             target="_blank"
             href="https://www.aedin.com/in/heather-berardo-noto ">
-            <LinkedInIcon />
+            <LinkedInIcon fontSize="large" />
           </a>
 
           <a
@@ -37,7 +37,7 @@ export default function Landing() {
             rel="noreferrer"
             target="_blank"
             href="https://github.com/heathernoto">
-            <GitHubIcon />
+            <GitHubIcon fontSize="large" />
           </a>
           <a
             className="landing__links"
@@ -45,7 +45,7 @@ export default function Landing() {
             rel="noreferrer"
             target="_blank"
             href="mailto:heather.noto@gmail.com">
-            <EmailIcon />
+            <EmailIcon fontSize="large" />
           </a>
         </div>
       </div>

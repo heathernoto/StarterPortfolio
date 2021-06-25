@@ -27,7 +27,7 @@ h3 {
 }
 
 /* ALL LINKS THROUGHOUT */
-a:hover.landing-links,
+a:hover.landing__links,
 a:hover.project-links-icon,
 a:hover.contact-icons {
   color: #da1e85;
