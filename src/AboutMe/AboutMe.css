@@ -7,8 +7,8 @@
 .about-me__box {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  /* flex-wrap: wrap;
+  justify-content: center; */
 }
 .about-me__box-img {
   display: flex;
