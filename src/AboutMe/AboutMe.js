@@ -8,9 +8,7 @@ export default function AboutMe() {
     <section id="about-me__nav">
       <h1>About Me</h1>
       <div className="about-me__box">
-        <div className="about-me__box-img">
-          <img alt="family" src={family} className="about-me__pic-family" />
-        </div>
+
         <div className="about-me__box-text">
           Originally in early childhood education, I left the workforce to care
           for my children and parents. Curious by nature, I used any spare time
@@ -20,9 +18,15 @@ export default function AboutMe() {
           internet could connect people. In the days of dial up, I designed my
           first website to keep in touch with far flung family and friends...
         </div>{' '}
+        <div className="about-me__box-img">
+          <img alt="family" src={family} className="about-me__pic-family" />
+        </div>
       </div>
 
       <div className="about-me__box">
+      <div className="about-me__box-img">
+          <img alt="coding" src={coding} className="about-me__pic-code" />
+        </div>
         <div className="about-me__box-text">
           When my plans to return to work were derailed by the pandemic, I
           returned to coding. I had forgotten how much I enjoyed the problem
@@ -33,14 +37,10 @@ export default function AboutMe() {
           and dreamt code - and I LOVED IT. Becoming a full stack software
           engineer is my pandemic positive!
         </div>
-        <div className="about-me__box-img">
-          <img alt="coding" src={coding} className="about-me__pic-code" />
-        </div>
+
       </div>
       <div className="about-me__box">
-        <div className="about-me__box-img">
-          <img alt="jumping" src={business} className="about-me__pic-hooray" />
-        </div>
+
         <div className="about-me__box-text">
           My bootcamp experience has given me a sturdy foundation and the tools
           to learn anything. I am excited for this new chapter in my life and I
@@ -50,6 +50,9 @@ export default function AboutMe() {
           flexible, can view problems from different angles, and keep things in
           perspective. PLUS, my early childhood education background means I
           know what to do when everyone is crying!
+        </div>
+        <div className="about-me__box-img">
+          <img alt="jumping" src={business} className="about-me__pic-hooray" />
         </div>
       </div>
     </section>

@@ -7,19 +7,22 @@ import './SingleProject.css';
 
 export default function SingleProject() {
   return (
-    <>
+    <div className="all-projects">
       {projects.map((project) => {
         return (
           <div key={project.id} className="project-card">
             <img alt="Pin It" src={project.image} className="project-media" />
+
             <div className="project-content" align="center">
-              <h2> {project.title}</h2>
+            <h2 className="project-card__title"> {project.title}</h2>
+              <p>
               {project.shortDescription}
               <br />
               {project.longerDescription}
-              <br />
+              </p>
+              <p>
               Tools: {project.tools}
-              <br />
+              </p>
               <div className="project-links">
                 {/* YouTube demo */}
                 {project.youTube && (
@@ -57,6 +60,6 @@ export default function SingleProject() {
           </div>
         );
       })}
-    </>
+    </div>
   );
 }

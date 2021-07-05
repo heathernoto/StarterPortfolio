@@ -5,7 +5,7 @@ body {
   margin: 0;
   background-color: gray;
   --main-blue: #1b51b6;
-  --project-background: rgb(132, 141, 165);
+  --project-background: rgb(72, 83, 102);
   --dark-text: navy;
   --light-text: whitesmoke;
 }
