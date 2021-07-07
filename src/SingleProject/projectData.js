@@ -51,7 +51,7 @@ const projects = [
     image: mintbean,
     tools: 'HTML and CSS only',
     link: 'https://heathers-learn-a-bit.netlify.app/',
-    github: 'https://github.com/heathernoto/Learn-a-bit',
+    gitHub: 'https://github.com/heathernoto/Learn-a-bit',
   },
 ];
 
