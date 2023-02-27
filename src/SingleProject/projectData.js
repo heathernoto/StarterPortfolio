@@ -10,7 +10,7 @@ const projects = [
       'A web app that allows users to save articles for future reading.',
     longerDescription:
       "Written with three fellow Grace Hopper students as a capstone project, this app uses Puppeteer's web scraping functionality to collect user specified articles.  The articles are saved in synced cloud and local databases for future on or offline reading.",
-    link: 'https://pin-it-reader.herokuapp.com/',
+    // link: 'https://pin-it-reader.herokuapp.com/',heroku gone
     gitHub: 'https://github.com/pin-it-ghp2011/Pin-It',
     image: pinItMain,
     tools:
@@ -24,7 +24,7 @@ const projects = [
     shortDescription: 'A site for candles.',
     longerDescription:
       'This mock e-commerce project has product display, login, session storage, and cart functionality.  This app was built within a week with two fellow students.',
-    link: 'https://tranquility-candles.herokuapp.com/',
+    // link: 'https://tranquility-candles.herokuapp.com/', heroku gone
     gitHub: 'https://github.com/Mighty-mighty-mangoes/Tranquility',
     image: tranquilityMain,
     tools:
